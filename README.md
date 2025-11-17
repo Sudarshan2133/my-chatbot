@@ -83,7 +83,7 @@ Your chatbot is now ready to use. Start typing and enjoy interacting with your A
 
 "The Corpus.txt file contains Pre-added Responses and it won't Overlapp with the OpenRouter Models"
 
-⚠️ Important Notice About OpenRouter Billing
+**⚠️ Important Notice About OpenRouter Billing**
 
 OpenRouter is not fully free by default. You must manually select and use free-tier models (such as deepseek/deepseek-chat) to avoid charges.
 If you run your chatbot with a paid model, OpenRouter will charge your account, even if it happens by mistake.
