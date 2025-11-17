@@ -14,9 +14,48 @@ Edit `config.py` and add your OpenRouter API key.
 ## 📄 License
 MIT License.
 
+**System Requirements**
+
+Python:
+Python 3.13.9 or the latest stable version
+Operating System Compatibility
+
+Linux:
+Must support systemctl (for daemon/service checks)
+Requires read access to /etc/crontab
+
+macOS:
+Unix-based system
+Requires read access to /etc/crontab
+(systemctl is not available on macOS)
+
+Windows:
+No additional system requirements
+File-based validation only
 
 
-_Setup & Installation_
+**Platform Support**
+
+This project is designed to work across all major operating systems with minimal setup.
+
+✅ Windows
+Fully supported
+No additional dependencies
+Works out-of-the-box using Python and file-based validation
+
+🟢 Linux (Ubuntu, Debian, Arch, Fedora, etc.)
+Fully supported
+Requires access to systemctl for service/daemon checks
+Requires read access to /etc/crontab
+Recommended for production or server setups
+
+🍎 macOS (Intel & Apple Silicon)
+Fully supported
+Requires read access to /etc/crontab
+Note: macOS does not provide systemctl
+
+
+_**Setup & Installation**_
 
 1. Clone the Repository
 git clone https://github.com/Sudarshan2133/my-chatbot.git
@@ -30,7 +69,6 @@ Make sure you have Python + pip installed, then run:
 
 4. Add Your API Key
 Open the config.py file and replace the placeholder:
-
 "API_KEY = "YOUR_OPENROUTER_API_KEY"
 MODEL = "deepseek/deepseek-chat" "
 
