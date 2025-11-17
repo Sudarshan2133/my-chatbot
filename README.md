@@ -34,7 +34,7 @@ Open the config.py file and replace the placeholder:
 "API_KEY = "YOUR_OPENROUTER_API_KEY"
 MODEL = "deepseek/deepseek-chat" "
 
-6. Run the Chatbot
+5. Run the Chatbot
 "python chatbot.py"
 
 🎉 You're All Set!
